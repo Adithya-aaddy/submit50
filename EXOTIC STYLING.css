@@ -1,0 +1,83 @@
+$color:#FF4501;
+h2{
+  font size: 76px;
+  color: $color;
+  padding: 14px 16px;
+  font font-family: sans-serif;
+}
+
+
+
+.topnav {
+  background-color: black;
+  overflow: hidden;
+  margin: 5px;
+  border: 2px;
+  shape-margin: round;
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #FF4501;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  width: 31%;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #FF4501;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color:#FF4501;
+  color: white;
+}
+.exoticnav {
+  background-color:#FF4501;
+  overflow: hidden;
+  margin: 5px;
+  border: 2px;
+
+}
+
+/* Style the links inside the navigation bar */
+.exoticnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  width: 31%;
+}
+
+/* Change the color of links on hover */
+.exoticnav a:hover {
+  background-color: black;
+  color: #FF4501;
+}
+
+/* Add a color to the active/current link */
+.exoticnav a.active {
+  background-color:#FF4501;
+  color: white;
+}
+
+header{
+  color: #FF4501;
+  padding: 14px ;
+margin: 3px;
+background-color: black;
+text-align: center;
+font-size: 72px;
+}
+.own{
+  
+}
