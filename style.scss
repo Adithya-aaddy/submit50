@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,500,700);
+$myColor:grey;
+body{
+
+ .division{
+    background-color: $myColor;
+  }
+	height:100%;
+	width:100%;
+	font-family:sans-seriff;
+	color:#222;
+	background-color:#eaedf1
+	}
+	.navbar{
+		padding:1rem;background-color:#ff4501;
+		border:1PX solid #000
+		}
+		.lead{
+			font-size:1.7rem solid #000;
+			font-weight:3rem;
+			font-family:poppins}
+			.navbar-nav li
+			{padding-right:25px;
+				font-size:5rem}
+				.nav-link
+				{
+					font-size:1.69rem!important}
+					.carousel-inner img
+					{width:100%;height:100%}
+					.carousel-caption{
+						position:absolute;
+						top:50%;
+						transform:translateY(-60%);
+						color:$myColor
+						}
+
+					.carousel-caption h1
+					{
+						font-size:500%;text-shadow:1px 1px 15px #000;font-family:monospace
+						}
+						.main{
+							font-family:sans-serif;color:#ff0
+							}
+
+
+							.jumbotron{
+								padding:1rem;border-radius:0}
+								.container-fluid
+								{
+									background-color:#c5d3ec
+									}
+									.intro p{font-size:2rem solid #000}
+									.social a{font-size:4.5rem;padding:3rem}
+									.fa-facebook{color:#3b5998}
+									.fa-github{color:#000}
+									.fa-instagram{color:#517fa4}
+									.fa-linkedin{color:#0077b5}
+									.padding{padding-bottom:2rem}
+									hr{border-top:3px solid grey;width:90%}
+									p{font-size:1.2rem}
+									b,h2{text-align:center;text-decoration:underline}
+									.bold{text-decoration:none;font-size:1.4rem;font-family:fantasy}
+									td{font-size:1.2rem}
+									.pageBottom{color:#fff;background-color:grey;font-size:1.3rem}
+									#Rolls-Royce{text-decoration:none;text-decoration-style:none}
+									#exotic{text-align:left;text-decoration:none;text-underline-position:none}
+									@media (min-width:992px){.jumbotron,body,html,.container-fluid,{background-color:#eaedf1; }}
+									@media (max-width:992px){.jumbotron,body,html,.container-fluid{background-color:coral}}
+									@media (max-width:768px){.jumbotron,body,html,.container-fluid{background-color:#add8e6}}
+									@media (max-width:576px){.jumbotron,body,html,.container-fluid{background-color:#fff}
+									.carousel-caption .main{font-size:75%}}
+									.carousel-item{transition:-webkit-transform .5s ease;transition:transform .5s ease;transition:transform .5s ease,-webkit-transform .5s ease;-webkit-backface-visibility:visible;backface-visibility:visible}
+									figure{position:relative;width:100%;height:60%;margin:0!important}
+									.fixed-wrap{clip:rect(0,auto,auto,0);position:absolute;top:0;left:0;width:100%;height:100%}
+									#fixed{background-image:url(img/mac.png);position:fixed;display:block;top:0;left:0;width:100%;height:100%;background-size:cover;background-position:center center;-webkit-transform:translateZ(0);transform:translateZ(0);will-change:transform}[class*=col-]{padding:1rem}

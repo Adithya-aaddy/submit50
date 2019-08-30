@@ -6,7 +6,10 @@ body {
   color: #222;
   background-color: #eaedf1; }
   body .division {
-    background-color: grey; }
+    background-color: yellow; 
+    color: black;
+    text-underline-position: none;
+    text-decoration: none;}
 
 .navbar {
   padding: 1rem;
@@ -88,6 +91,12 @@ b, h2 {
   text-decoration: none;
   font-size: 1.4rem;
   font-family: fantasy; }
+  .thead{
+    background-color: yellow;
+    color: black;
+    font-size:1.4rem;
+
+  }
 
 td {
   font-size: 1.2rem; }
